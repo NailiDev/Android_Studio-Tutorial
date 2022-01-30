@@ -71,3 +71,21 @@
 
     }
     //******************
+    
+    
+    
+public class ListItem {
+
+    public String Name;
+  //  public String Desc;
+    public int myimgid;
+
+
+    ListItem(String Name,int myimgid){
+        this.Name=Name;
+       // this.Desc=Desc;
+        this.myimgid=myimgid;
+
+    }
+
+}
